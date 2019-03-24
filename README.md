@@ -15,3 +15,5 @@ Go into the app and click on the device menu --> developer menu --> side loaded 
 Click settings and then adjust the slider according to how many sleep cycles you want(how much you want to sleep)
 
 Sleep! You will be awoken once you have reached the specified number of sleep cycles
+
+Created by Garrin Shieh, Nikhil Manglore, Anderson Wang, Parth Dhanotra
