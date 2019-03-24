@@ -7,19 +7,15 @@ var inputCycles;
 // Message is received from companion
 messaging.peerSocket.onmessage = evt => {
   // Am I Tired?
-  console.log("hi");
   let inputCycles = settingsStorage.getItem("REM") || 0;
-  console.log(evt);
-  if (evt.sleep.levels.summary.rem.count >= inputCycles) { //add input later
-    // Had required REM sleep cycle
-    //myImage.href = "images/awake.jpg";
-    
-    vibration.start("ring");
-    console.log("TRUE")
-  } else {
-    // not enough sleep
-    //myImage.href = "images/sleepy.jpg";
-        console.log("FALSE")
-
-  }
+  var counter = 0;
+	for (let index = 0; index < evt.sleep.levels.data.length; index++) {
+		if (evt.sleep.levels.data.level == "wake") {
+      counter++;
+    }
+    if (counter >= evt.inputCycles) {
+      vibration.start("ring");
+      break;
+    }
+	}
 };
