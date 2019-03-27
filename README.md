@@ -16,4 +16,5 @@ Click settings and then adjust the slider according to how many sleep cycles you
 
 Sleep! You will be awoken once you have reached the specified number of sleep cycles
 
-Created by Garrin Shieh, Nikhil Manglore, Anderson Wang, Parth Dhanotra
+Created by Garrin Shieh, Nikhil Manglore, Anderson Wang, Parth Dhanotra, Daniel Ghasemfar 
+
