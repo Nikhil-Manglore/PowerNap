@@ -1,4 +1,4 @@
-# PowerNap
+# PowerNap: Recharge
 Devices Confirmed: Ionic
 Devices unsupported but possibly usable: Versa, Versa Lite
 
